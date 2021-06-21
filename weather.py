@@ -37,6 +37,8 @@ async def weather(ctx, arg):
             weath = "Облачно"
             colors = colours.dark_grey
             link = "http://clipart-library.com/img/1838469.png"
+    elif arg == "clear":
+        ctx.send("Погода успешно очищена :D")
     else:
         weath = "Не смог найти"
         link = None
