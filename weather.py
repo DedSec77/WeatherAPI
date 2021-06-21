@@ -5,8 +5,8 @@ import requests
 import json
 from colour import colours
 
-API_KEY = "0229c9750750b7c30c470d8d9543491a"
-TOKEN = "ODU2MTMzODE5ODM3MzE3MTQw.YM8mwA.z7CIAzVUNnjgmsx8n3v2xCNwiGA"
+API_KEY = ""
+TOKEN = ""
 url = "http://api.openweathermap.org/data/2.5/weather?"
 
 
