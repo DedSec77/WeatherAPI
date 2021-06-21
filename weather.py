@@ -9,7 +9,6 @@ API_KEY = "Your api key on openweather"
 TOKEN = "token discord bot"
 url = "http://api.openweathermap.org/data/2.5/weather?"
 
-city_id = "2017370"
 
 bot = commands.Bot(command_prefix='/', help_command=None)
 @bot.command(pass_context=True) #разрешаем передавать агрументы
@@ -49,7 +48,7 @@ async def weather(ctx, arg):
         description="Страна: " + county + "\n" + "Город: " + name + "\n"  + "Погода: " + weath + "\n" "Ветер: " + str(wind) + "deg" + "\n", 
         color=colors,
     )
-    
+
     embed.set_image(url=link)
     #await ctx.send("Страна: " + county + "\n" + "Город: " + name + "\n"  + "Погода: " + weath + "\n" "Ветер: " + str(wind) + "deg" + "\n")
     await ctx.send(embed=embed)
