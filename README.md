@@ -4,6 +4,7 @@ WeatherAPI bot work on openweather (Python), no use offical libary for work open
 
 # How install:
 install Python on python.org
+</br>
 pip install discord.py
 
 # How start?:
