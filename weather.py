@@ -5,8 +5,8 @@ import requests
 import json
 from colour import colours
 
-API_KEY = "Your api key on openweather"
-TOKEN = "token discord bot"
+API_KEY = "0229c9750750b7c30c470d8d9543491a"
+TOKEN = "ODU2MTMzODE5ODM3MzE3MTQw.YM8mwA.z7CIAzVUNnjgmsx8n3v2xCNwiGA"
 url = "http://api.openweathermap.org/data/2.5/weather?"
 
 
@@ -37,8 +37,6 @@ async def weather(ctx, arg):
             weath = "Облачно"
             colors = colours.dark_grey
             link = "http://clipart-library.com/img/1838469.png"
-    elif arg == "clear":
-        ctx.send("Погода успешно очищена :D")
     else:
         weath = "Не смог найти"
         link = None
