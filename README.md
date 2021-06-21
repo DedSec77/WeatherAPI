@@ -8,8 +8,8 @@ pip install discord.py
 
 # How start?:
 ![image](https://user-images.githubusercontent.com/55799553/122763687-71384900-d2c0-11eb-9659-4d779ce0cbcc.png)
-in API_KEY insert key on openweather, click <a href="https://openweathermap.org/">here</a>
-And TOKEN insert youre token discord bot.
+in API_KEY insert key on openweather, click <a href="https://openweathermap.org/">here</a></br>
+And TOKEN insert youre token discord bot.</br>
 
 in directory with files open terminal, and write python WeatherAPI
 # Commands
